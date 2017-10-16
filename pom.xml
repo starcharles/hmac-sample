@@ -51,7 +51,7 @@
                         <goals>
                             <goal>site</goal>
                         </goals>
-                        <phase>site</phase>
+                        <phase>deploy</phase>
                     </execution>
                 </executions>
             </plugin>
