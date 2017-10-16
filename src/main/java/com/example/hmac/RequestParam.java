@@ -1,4 +1,4 @@
-package com.fressets;
+package com.example.hmac;
 
 public class RequestParam {
     String accsess_key;

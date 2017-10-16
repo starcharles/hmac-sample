@@ -1,4 +1,4 @@
-package com.fressets;
+package com.example.hmac;
 
 import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;

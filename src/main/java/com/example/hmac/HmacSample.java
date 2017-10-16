@@ -1,4 +1,4 @@
-package com.fressets;
+package com.example.hmac;
 
 /**
  * REST API認証処理のサンプル
