@@ -1,4 +1,4 @@
-package com.example;
+package com.fressets;
 
 public class RequestParam {
     String accsess_key;

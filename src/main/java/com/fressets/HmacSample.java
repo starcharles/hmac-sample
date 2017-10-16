@@ -1,4 +1,4 @@
-package com.example;
+package com.fressets;
 
 /**
  * REST API認証処理のサンプル
@@ -27,11 +27,12 @@ public class HmacSample {
         String sig = apiHandler.createHmacSignature();
         System.out.println(sig);
 
-        String secret_key2 = "aa";
+//        String secret_key2 = "aa";
+
         //署名の認証
         RequestParam requestParam2 = new RequestParam(accsess_key, nonce, payload, sig);
-//        ApiRequestHandler apiHandler2 = new ApiRequestHandler(requestParam2, secret_key);
-        ApiRequestHandler apiHandler2 = new ApiRequestHandler(requestParam2, secret_key2, "aaa");
+        ApiRequestHandler apiHandler2 = new ApiRequestHandler(requestParam2, secret_key);
+//        ApiRequestHandler apiHandler2 = new ApiRequestHandler(requestParam2, secret_key2, "aaa");
 
         if(apiHandler2.isValidRequest()){
             System.out.println("valid signature");
