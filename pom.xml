@@ -30,8 +30,8 @@
         <plugins>
             <plugin>
                 <groupId>com.example.hmac</groupId>
-                <artifactId>hmac-sample-ns</artifactId>
-                <version>0.12</version>
+                <artifactId>hmac-sample</artifactId>
+                <version>0.1</version>
                 <configuration>
                     <!-- Git コミットメッセージ -->
                     <message>Maven artifacts for ${project.version}</message>
