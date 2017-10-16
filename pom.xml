@@ -29,9 +29,9 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.example.hmac</groupId>
-                <artifactId>hmac-sample</artifactId>
-                <version>0.1</version>
+                <groupId>com.github.github</groupId>
+                <artifactId>site-maven-plugin</artifactId>
+                <version>0.12</version>
                 <configuration>
                     <!-- Git コミットメッセージ -->
                     <message>Maven artifacts for ${project.version}</message>
@@ -51,9 +51,18 @@
                         <goals>
                             <goal>site</goal>
                         </goals>
-                        <phase>deploy</phase>
+                        <phase>site</phase>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>

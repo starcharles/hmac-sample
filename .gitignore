@@ -1,4 +1,13 @@
 build/
 .idea/
 .gradle/
+gradlew
+gradlew.bat
+target/
+gradle/
+build.gradle
+settings.gradle
+.java-version
+
+
 
