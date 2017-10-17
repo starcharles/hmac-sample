@@ -9,9 +9,11 @@ sourceCompatibility = 1.8
 mainClassName = 'com.example.hmac.HmacSample'
 repositories {
     mavenCentral()
+    maven { url 'https://github.com/starcharles/hmac-sample/mvn-repo' }
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.example.hmac:hmac-sample:0.1'
 }
 
