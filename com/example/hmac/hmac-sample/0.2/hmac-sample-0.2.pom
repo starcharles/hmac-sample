@@ -6,7 +6,7 @@
     <groupId>com.example.hmac</groupId>
     <artifactId>hmac-sample</artifactId>
     <!-- バージョン番号 -->
-    <version>0.1</version>
+    <version>0.2</version>
     <packaging>jar</packaging>
 
     <name>hmac-sample</name>
